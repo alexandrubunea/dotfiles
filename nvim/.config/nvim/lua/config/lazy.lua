@@ -28,6 +28,13 @@ vim.o.shiftwidth = 4
 
 vim.opt.number = true
 
+vim.opt.mouse = ''
+
+vim.keymap.set({'n', 'v'}, '<Up>', '<Nop>', { silent = true })
+vim.keymap.set({'n', 'v'}, '<Down>', '<Nop>', { silent = true })
+vim.keymap.set({'n', 'v'}, '<Left>', '<Nop>', { silent = true })
+vim.keymap.set({'n', 'v'}, '<Right>', '<Nop>', { silent = true })
+
 -- Setup lazy.nvim
 require('lazy').setup({
   spec = {
