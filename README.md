@@ -4,10 +4,10 @@ Welcome to my dotfiles repository! This repository contains my personal configur
 
 ## 🌟 Features
 
-- **Neovim**: A custom Neovim setup with a Lua configuration, plugin management via `lazy.nvim`, and enhanced LSP support.
-- **Kitty**: A terminal emulator configuration with multiple themes and a custom configuration.
-- **Bat**: A `bat` configuration for syntax highlighting with custom themes.
-- **Starship**: A minimalistic prompt configuration.
+- [**Neovim**](https://github.com/neovim/neovim): A custom Neovim setup with a Lua configuration, plugin management via `lazy.nvim`, and enhanced LSP support.
+- [**Kitty**](https://github.com/kovidgoyal/kitty): A terminal emulator configuration with multiple themes and a custom configuration.
+- [**Bat**](https://github.com/sharkdp/bat): A `bat` configuration for syntax highlighting with custom themes.
+- [**Starship**](https://github.com/starship/starship): A minimalistic prompt configuration.
 - **Zsh**: A customized Zsh shell configuration for a better command-line experience.
 
 ## 🛠️ Tools & Technologies
