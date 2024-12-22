@@ -64,6 +64,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 
 -- Neotree
 vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>', { desc = 'Toggles neotree' })
+vim.keymap.set('n', '<leader>ef', ':Neotree focus<CR>', { desc = 'Focus neotree' })
 
 -- Treesitter
 local parser_config = require('nvim-treesitter.parsers').get_parser_configs()
