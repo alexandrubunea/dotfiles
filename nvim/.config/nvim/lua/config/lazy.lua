@@ -27,6 +27,7 @@ vim.o.softtabstop = 4
 vim.o.shiftwidth = 4
 
 vim.opt.number = true
+vim.opt.relativenumber = true
 
 vim.opt.mouse = ''
 
@@ -43,16 +44,14 @@ require('lazy').setup({
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { 'catppuccin' } },
+  install = { colorscheme = { 'catppuccin', 'tokyonight', 'gruvbox' } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 })
 
 -- Theme & Style
-require('catppuccin').setup({
-    transparent_background = true
-})
-vim.cmd.colorscheme 'catppuccin'
+vim.cmd.colorscheme 'gruvbox'
+vim.o.background = 'dark';
 
 require('lualine').setup({
     options = {theme = 'auto'}
