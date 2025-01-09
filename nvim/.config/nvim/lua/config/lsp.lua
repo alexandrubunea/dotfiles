@@ -36,3 +36,14 @@ lspconfig.ts_ls.setup({
         client.server_capabilities.documentFormattingProvider = false
     end,
 })
+
+-- LaTeX
+lspconfig.ltex.setup({
+    cmd = { 'ltex-ls'},
+    settings = {
+        ltex = {
+            language = 'ro',
+            additionalLanguages = {'en'},
+        }
+    }
+})

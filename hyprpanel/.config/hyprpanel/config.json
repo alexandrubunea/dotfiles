@@ -415,12 +415,15 @@
         "volume",
         "network",
         "hyprsunset",
-        "battery",
         "clock",
         "notifications",
         "power"
       ]
     }
   },
-  "bar.network.label": false
+  "bar.network.label": false,
+  "menus.media.hideAuthor": false,
+  "menus.media.displayTime": false,
+  "menus.media.hideAlbum": false,
+  "menus.media.displayTimeTooltip": false
 }
