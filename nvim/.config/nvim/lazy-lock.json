@@ -13,7 +13,6 @@
   "laravel.nvim": { "branch": "main", "commit": "325fa34f5e02d5393ad8a38fe7c9e1add94279e8" },
   "lazy.nvim": { "branch": "main", "commit": "d8f26efd456190241afd1b0f5235fe6fdba13d4a" },
   "lualine.nvim": { "branch": "master", "commit": "2a5bae925481f999263d6f5ed8361baef8df4f83" },
-  "mason.nvim": { "branch": "main", "commit": "e2f7f9044ec30067bc11800a9e266664b88cda22" },
   "neo-tree.nvim": { "branch": "v3.x", "commit": "a77af2e764c5ed4038d27d1c463fa49cd4794e07" },
   "nui.nvim": { "branch": "main", "commit": "53e907ffe5eedebdca1cd503b00aa8692068ca46" },
   "null-ls.nvim": { "branch": "main", "commit": "0010ea927ab7c09ef0ce9bf28c2b573fc302f5a7" },
@@ -28,5 +27,5 @@
   "tokyonight": { "branch": "main", "commit": "7bb270adaa7692c2c33befc35f5567fc596a2504" },
   "vim-dotenv": { "branch": "master", "commit": "5c51cfcf8d87280d6414e03cd6b253eb70ecb800" },
   "vim-fugitive": { "branch": "master", "commit": "174230d6a7f2df94705a7ffd8d5413e27ec10a80" },
-  "vimtex": { "branch": "master", "commit": "a707d39e77cb27a6d02922f269875d1727860dcf" }
+  "vimtex": { "branch": "master", "commit": "adce3d38349925a0a891857c74bd4e8d1b8f80ab" }
 }
