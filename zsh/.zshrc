@@ -33,3 +33,9 @@ export PHP_INI_SCAN_DIR="/home/buha/.config/herd-lite/bin:$PHP_INI_SCAN_DIR"
 # Welcome message
 figlet "Hello $USER"
 echo "You've started this session on \e[1m$(date '+%d %B %Y')\e[0m at \e[1m$(date +%H:%M:%S)\e[0m\n\n\e[3m$(fortune)\e[0m"
+
+## [Completion]
+## Completion scripts setup. Remove the following line to uninstall
+[[ -f /home/buha/.dart-cli-completion/zsh-config.zsh ]] && . /home/buha/.dart-cli-completion/zsh-config.zsh || true
+## [/Completion]
+
